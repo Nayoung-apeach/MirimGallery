@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("갤러리 영화 포스터");
+        setTitle("트레저 포스터");
 
         Gallery gallery = findViewById(R.id.gallery1);
         ImageView imgvMain = findViewById(R.id.imgv_main);
